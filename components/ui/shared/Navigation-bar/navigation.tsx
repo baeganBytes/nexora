@@ -36,7 +36,7 @@ function Navigation() {
         </li>
       </ul>
       <div className="flex gap-7.5">
-        <a className="font-tech rounded-md bg-black px-6 py-1.5 text-1xl font-semibold text-white transition duration-200 ease-in-out hover:border hover:border-black hover:bg-transparent hover:text-black cursor-pointer">
+        <a className="font-tech font-normal rounded-md bg-black px-6 py-1.5 text-1xl text-white transition duration-200 ease-in-out hover:border hover:border-black hover:bg-transparent hover:text-black cursor-pointer">
           Login
         </a>
         <div className="add-to-cart cursor-pointer">
