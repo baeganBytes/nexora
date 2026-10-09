@@ -12,7 +12,7 @@ function Navigation() {
       <ul className="list-none flex gap-8">
         <li>
           <a
-            className="font-ubuntu relative text-2xl font-medium no-underline text-black after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full cursor-pointer"
+            className="font-ubuntu relative text-1xl font-medium no-underline text-black after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full cursor-pointer"
             href=""
           >
             About Us
@@ -20,7 +20,7 @@ function Navigation() {
         </li>
         <li>
           <a
-            className="font-ubuntu relative text-2xl font-medium no-underline text-black after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full cursor-pointer"
+            className="font-ubuntu relative text-1xl font-medium no-underline text-black after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full cursor-pointer"
             href=""
           >
             Accessories
@@ -28,7 +28,7 @@ function Navigation() {
         </li>
         <li>
           <a
-            className="font-ubuntu relative text-2xl font-medium no-underline text-black after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full cursor-pointer"
+            className="font-ubuntu relative text-1xl font-medium no-underline text-black after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full cursor-pointer"
             href=""
           >
             New Arrivals
