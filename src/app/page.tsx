@@ -5,13 +5,9 @@ export default function Home() {
     <main>
       <section
         className="relative h-screen w-full bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: "url('../public/hero.jpg')",
-        }}
+        style={{ backgroundImage: "url('/hero.jpg')" }}
       >
         <Navigation />
-
-        
       </section>
     </main>
   );
