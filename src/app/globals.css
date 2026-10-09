@@ -3,8 +3,8 @@
 @import "tailwindcss";
 
 @theme {
-    --font-ubuntu: Ubuntu
-    --font-archivo: Archivo
+    --font-ubuntu: "Ubuntu";
+    --font-archivo: "Archivo";
 }
 
 /* Force standard desktop hover behavior if you are on a touchscreen hybrid laptop */
