@@ -40,7 +40,7 @@ function Navigation() {
           Login
         </button>
         <div className="add-to-cart">
-          <Image src={cart} alt="cart" height={24} width={24} />
+          <Image src={cart} alt="cart" height={45} width={45} />
         </div>
       </div>
     </nav>
