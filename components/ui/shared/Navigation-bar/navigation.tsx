@@ -35,8 +35,8 @@ function Navigation() {
           </a>
         </li>
       </ul>
-      <div className="flex gap-5">
-        <button className="font-archivo py-2 px-6 rounded-md font-bold text-2xl bg-black text-white cursor-pointer">
+      <div className="flex gap-7.5">
+        <button className="font-archivo py-2 px-6 rounded-md font-semibold text-1xl bg-black text-white cursor-pointer hover:border-black hover:bg-transparent hover:text-black">
           Login
         </button>
         <div className="add-to-cart">
