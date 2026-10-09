@@ -5,7 +5,8 @@ import cart from "@/public/svg/cart.svg"
 
 function Navigation() {
   return (
-    <nav className="mb-8 flex w-full items-center justify-between bg-white/40 px-6 py-3 shadow-[0_8px_32px_rgba(15,23,42,0.12)] ring-1 ring-white/20 backdrop-blur-2xl">
+    
+<nav className="mb-8 flex w-full items-center justify-between rounded-2xl border border-white/30 bg-white/20 px-6 py-3 shadow-[0_8px_32px_rgba(15,23,42,0.12)] backdrop-blur-2xl backdrop-saturate-150 ring-1 ring-white/10">
       <div className="logo cursor-pointer">
         <Image src={logo} alt="logo" height={40} width={40} />
       </div>
