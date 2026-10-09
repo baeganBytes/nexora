@@ -1,40 +1,44 @@
-import React from 'react'
-import "@/src/app/globals.css"
+import React from "react";
+import Image from "next/image";
+import logo from "@/public/svg/logo.svg"
+import cart from "@/public/svg/cart.svg"
+import { Ubuntu, Archivo } from "next/font/google";
+
+const ubuntu = Ubuntu({
+    weight: ["300", "400", "500", "700"],
+    subsets: ["latin"]
+})
+
+const archivo = Archivo({
+    weight: ["500", "600", "700", "800", "900"],
+    subsets: ["latin"]
+})
 
 function Navigation() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Navbar
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <a className="nav-link active" aria-current="page" href="#">
-              Home
-            </a>
-            <a className="nav-link" href="#">
-              Features
-            </a>
-            <a className="nav-link" href="#">
-              Pricing
-            </a>
-          </div>
+    <nav className="bg-white/30 backdrop-blur-md border border-white/20 rounded-2xl p-6 shadow-xl w-100% mb-8 flex items-center justify-between">
+      <div className="logo">
+        <Image src={logo} alt="logo" height={200} width={200} />
+      </div>
+      <ul className="list-none flex gap-8">
+        <li>
+          <a className={`${ubuntu.className} relative text-2xl font-medium no-underline text-black after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-black-500 after:transition-all after:duration-300 hover:after:w-full cursor-pointer`} href="">About Us</a>
+        </li>
+        <li>
+          <a className={`${ubuntu.className} relative text-2xl font-medium no-underline text-black after:absolute after:bottom-0 after:left-0 after:h-[2xl] after:w-0 after:bg-black-500 after:transition-all after:duration-300 hover:after:w-full cursor-pointer`} href="">Accessories</a>
+        </li>
+        <li>
+          <a className={`${ubuntu.className} relative text-2xl font-medium no-underline text-black after:absolute after:bottom-0 after:left-0 after:h-[2xl] after:w-0 after:bg-black-500 after:transition-all after:duration-300 hover:after:w-full cursor-pointer`}  href="">New Arrivals</a>
+        </li>
+      </ul>
+      <div className="flex">
+        <button className="py-2 px-6 rounded-md font-bold text-2xl bg-black text-white cursor-pointer">Login</button>
+        <div className="add-to-cart">
+          <Image src={cart} alt="cart" height={200} width={200} />
         </div>
       </div>
     </nav>
   );
 }
 
-export default Navigation
+export default Navigation;
