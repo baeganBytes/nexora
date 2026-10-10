@@ -1,13 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Bricolage+Grotesque:200,300,regular,500,600,700,800);
-@import url(https://fonts.googleapis.com/css?family=Public+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
-@import url(https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic);
 @import "tailwindcss";
 
 @theme {
-    --font-bricolage: "Bricolage Grotesque";
-    --font-public: "Public Sans";
-    --font-space: "Space Mono";
+    --font-bricolage: var(--font-bricolage-face);
+    --font-public: var(--font-public-face);
+    --font-space: var(--font-space-face);
 }
 
-/* Force standard desktop hover behavior if you are on a touchscreen hybrid laptop */
 @custom-variant hover (&:hover);
