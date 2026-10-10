@@ -7,7 +7,7 @@ function Navigation() {
     <nav className="mb-8 flex w-full items-center justify-between border border-white/30 bg-white/20 px-6 py-3 shadow-[0_8px_32px_rgba(15,23,42,0.12)] backdrop-blur-2xl backdrop-saturate-150 ring-1 ring-white/10">
       <div className="cursor-pointer flex items-center justify-center gap-2.5">
         <Image src={logo} alt="logo" height={40} width={40} />
-        <a href="#" className="font-bricolage">
+        <a href="#" className="font-bricolage font-bold text-2xl">
           Nexora
         </a>
       </div>
