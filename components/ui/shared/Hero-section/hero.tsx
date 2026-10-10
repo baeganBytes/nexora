@@ -1,12 +1,21 @@
+"use client";
 
+import Spline from "@splinetool/react-spline/next";
 
 function Hero() {
   return (
-    <section className="relative z-20 flex min-h-0 flex-1 items-center justify-center">
-      <div className="flex flex-col items-center gap-8 px-6 text-center">
+    <section className="relative z-0 flex min-h-0 flex-1 items-center justify-center">
+      {/* Spline background layer */}
+      <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
+        <Spline scene="https://prod.spline.design/EYtkUczeWsIxZeRR/scene.splinecode" />
+      </div>
+
+      {/* Hero content layer */}
+      <div className="relative z-10 flex flex-col items-center gap-8 px-6 text-center">
         <h1 className="w-full max-w-3xl text-6xl leading-tight font-bricolage text-[#01161E]">
           Where digital becomes permanent.
         </h1>
+
         <div className="flex flex-wrap justify-center gap-4">
           <a
             href="#collection"
@@ -14,9 +23,10 @@ function Hero() {
           >
             Explore Collection
           </a>
+
           <a
             href="#about"
-            className="rounded-full border border-[#01161E]/60 bg-white/20 px-6 py-3 shadow-[0_8px_32px_rgba(15,23,42,0.12)] backdrop-blur-2xl backdrop-saturate-150 px-6 py-3 font-public font-semibold text-[#01161E] transition hover:bg-white/40"
+            className="rounded-full border border-[#01161E]/60 bg-white/20 px-6 py-3 shadow-[0_8px_32px_rgba(15,23,42,0.12)] backdrop-blur-2xl backdrop-saturate-150 font-public font-semibold text-[#01161E] transition hover:bg-white/40"
           >
             Discover Nexora
           </a>
@@ -26,4 +36,4 @@ function Hero() {
   );
 }
 
-export default Hero
+export default Hero;
