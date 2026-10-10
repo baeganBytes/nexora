@@ -1,3 +1,4 @@
+import Hero from "@/components/ui/shared/Hero-section/hero";
 import Navigation from "@/components/ui/shared/Navigation-bar/navigation";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
         style={{ backgroundImage: "url('/hero.jpg')" }}
       >
         <Navigation />
+        <Hero />
       </section>
     </main>
   );
