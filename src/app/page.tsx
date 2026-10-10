@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <section
-        className="relative h-screen w-full bg-cover bg-center bg-no-repeat"
+        className="relative flex h-screen w-full flex-col bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/hero.jpg')" }}
       >
         <Navigation />
