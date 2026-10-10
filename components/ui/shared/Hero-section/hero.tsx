@@ -2,7 +2,7 @@
 
 function Hero() {
   return (
-    <section className="flex min-h-0 flex-1 items-center justify-center">
+    <section className="relative z-10 flex min-h-0 flex-1 items-center justify-center">
       <div className="flex flex-col items-center gap-8 px-6 text-center">
         <h1 className="w-full max-w-3xl text-6xl leading-tight font-bricolage text-[#01161E]">
           Where digital becomes permanent.
@@ -16,7 +16,7 @@ function Hero() {
           </a>
           <a
             href="#about"
-            className="rounded-full border border-[#01161E]/60 bg-white/25 px-6 py-3 font-public font-semibold text-[#01161E] shadow-lg backdrop-blur-xl transition hover:bg-white/40"
+            className="rounded-full border border-[#01161E]/60 bg-white/20 px-6 py-3 shadow-[0_8px_32px_rgba(15,23,42,0.12)] backdrop-blur-2xl backdrop-saturate-150 px-6 py-3 font-public font-semibold text-[#01161E] transition hover:bg-white/40"
           >
             Discover Nexora
           </a>
