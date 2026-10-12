@@ -4,11 +4,8 @@ import Spline from "@splinetool/react-spline/next";
 
 function Hero() {
   return (
-    <section className="relative z-0 flex min-h-0 flex-1 items-center justify-center">
-      {/* Spline background layer */}
-      <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
-        <Spline scene="https://prod.spline.design/EYtkUczeWsIxZeRR/scene.splinecode" />
-      </div>
+    <section className="relative z-0 flex min-h-0 flex-1 items-center justify-center hero">
+
 
       {/* Hero content layer */}
       <div className="relative z-10 flex flex-col items-center gap-8 px-6 text-center">
