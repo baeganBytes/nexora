@@ -5,6 +5,10 @@ import Spline from "@splinetool/react-spline/next";
 function Hero() {
   return (
     <section className="relative z-0 flex min-h-0 flex-1 items-center justify-center hero">
+      <Spline
+        scene="https://prod.spline.design/EYtkUczeWsIxZeRR/scene.splinecode" 
+      />
+
 
 
       {/* Hero content layer */}
