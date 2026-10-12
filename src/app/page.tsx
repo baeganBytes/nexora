@@ -5,12 +5,8 @@ export default function Home() {
   return (
     <main>
       <section
-        className="relative flex h-screen w-full flex-col overflow-hidden"
+        className="hero relative flex h-screen w-full flex-col overflow-hidden"
       >
-        <div
-          aria-hidden="true"
-          className="absolute inset-0 z-0 bg-[url('/hero.jpg')] bg-cover bg-center bg-no-repeat"
-        />
         <iframe
           title="Interactive Spline hero scene"
           src="https://my.spline.design/untitled-E5XuxMYAtGXw4Oso6cmlRJq3/"

@@ -1,18 +1,9 @@
 "use client";
 
-import Spline from "@splinetool/react-spline/next";
-
 function Hero() {
   return (
-    <section className="relative z-0 flex min-h-0 flex-1 items-center justify-center hero">
-      <Spline
-        scene="https://prod.spline.design/EYtkUczeWsIxZeRR/scene.splinecode" 
-      />
-
-
-
-      {/* Hero content layer */}
-      <div className="relative z-10 flex flex-col items-center gap-8 px-6 text-center">
+    <section className="pointer-events-none absolute inset-0 z-20 flex items-center justify-center">
+      <div className="pointer-events-auto flex flex-col items-center gap-8 px-6 text-center">
         <h1 className="w-full max-w-3xl text-6xl leading-tight font-bricolage text-[#01161E]">
           Where digital becomes permanent.
         </h1>
